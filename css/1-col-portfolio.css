@@ -51,9 +51,21 @@ body {
 
 }
 
-.barlow {
+.barlow-light {
   font-family: 'Barlow', sans-serif;
   font-weight: 300;
+  color: white;
+}
+
+.barlow-semibold {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.nav-text {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
   color: white;
 }
 
@@ -134,7 +146,27 @@ body {
   cursor: pointer;
 }
 
-.btn-red {
+.btn-blue:active {
+  background: rgba(126, 126, 126, 1);
+ 
+}
+
+.btn-blue:focus {
+  outline: none;
+ 
+}
+
+.btn-red-new:active {
+  background: rgba(126, 126, 126, 1);
+ 
+}
+
+.btn-red-new:focus {
+  outline: none;
+ 
+}
+
+.btn-red-new {
   font-family: 'Barlow', sans-serif;
   font-size: 14pt;
   font-weight: 300;
