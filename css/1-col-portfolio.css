@@ -5,6 +5,7 @@
  */
 
 body {
+  background: #111111;
   padding-top: 54px;
 }
 
@@ -16,4 +17,152 @@ body {
 
 .pagination {
   margin-bottom: 15px;
+}
+
+.home-hero {
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 30px;
+  height: 710px;
+  width: 1440px;
+  background: #111111;
+
+}
+
+.hero-text-red {
+  font-family: 'Barlow', sans-serif;
+  font-size: 28pt;
+  font-weight: 300;
+  color: #FD7A7A;
+  margin: 0;
+  padding-top: 30px;
+  padding-right: 50px;
+
+}
+
+.hero-text-blue {
+  font-family: 'Barlow', sans-serif;
+  font-size: 17pt;
+  font-weight: 300;
+  color: #95C8FF;
+  margin: 0;
+  padding-top: 30px;
+  padding-right: 50px;
+
+}
+
+.barlow {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+.pureblack {
+  background: #000000;
+}
+
+.nav-logo {
+  font-family: 'Barlow', sans-serif;
+  font-size: 24pt;
+  font-weight: 300;
+  color: white;
+  display: inline-block;
+  line-height: inherit;
+  white-space: nowrap;
+}
+.nav-logo:hover, .nav-logo:focus {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+#dropshadow {
+  box-shadow: 0px 3px 51px rgba(255,255,255, 0.3);
+  -moz-box-shadow: 0px 3px 51px rgba(255,255,255, 0.3);
+  -webkit-box-shadow: 0px 3px 51px rgba(255,255,255, 0.3);
+
+}
+
+.hero-logo {
+  font-family: 'Barlow', sans-serif;
+  font-size: 93pt;
+  font-weight: 300;
+  color: white;
+}
+
+.hero-logo-line {
+  font-family: 'Barlow', sans-serif;
+  font-size: 160pt;
+  font-weight: 100;
+  color: white;
+}
+
+.hero-btn-div {
+  margin: 70px;
+}
+
+.btn-blue {
+  font-family: 'Barlow', sans-serif;
+  font-size: 14pt;
+  font-weight: 300;
+  color: white;
+  width: 160px;
+  height: 54px;
+  margin: 15px;
+  border-radius: 27px;
+  background: rgba(126, 126, 126, .22);
+  border: solid rgba(24, 128, 213, .22);
+  box-shadow: 1px 1px 1px rgba(24, 128, 213, .22);
+  -moz-box-shadow: 1px 1px 1px rgba(24, 128, 213, .22);
+  -webkit-box-shadow: 1px 1px 1px rgba(24, 128, 213, .22);
+}
+
+.btn-blue:hover {
+  font-family: 'Barlow', sans-serif;
+  font-size: 14pt;
+  font-weight: 300;
+  color: white;
+  width: 160px;
+  height: 54px;
+  margin: 15px;
+  border-radius: 27px;
+  background: rgba(126, 126, 126, .22);
+  border: solid rgba(24, 128, 213, .22);
+  box-shadow: 1px 1px 22px rgba(24, 128, 213, .22);
+  -moz-box-shadow: 1px 1px 22px rgba(24, 128, 213, .22);
+  -webkit-box-shadow: 1px 1px 22px rgba(24, 128, 213, .22);
+  cursor: pointer;
+}
+
+.btn-red {
+  font-family: 'Barlow', sans-serif;
+  font-size: 14pt;
+  font-weight: 300;
+  color: white;
+  width: 160px;
+  height: 54px;
+  margin: 15px;
+  border-radius: 27px;
+  background: rgba(126, 126, 126, .22);
+  border: solid rgba(213, 28, 28, .22);
+  box-shadow: 1px 1px 1px rgba(213, 28, 28, .22);
+  -moz-box-shadow: 1px 1px 1px rgba(213, 28, 28, .22);
+  -webkit-box-shadow: 1px 1px 1px rgba(213, 28, 28, .22);
+}
+
+.btn-red:hover {
+  font-family: 'Barlow', sans-serif;
+  font-size: 14pt;
+  font-weight: 300;
+  color: white;
+  width: 160px;
+  height: 54px;
+  margin: 15px;
+  border-radius: 27px;
+  background: rgba(126, 126, 126, .22);
+  border: solid rgba(213, 28, 28, .22);
+  box-shadow: 1px 1px 22px rgba(213, 28, 28, .22);
+  -moz-box-shadow: 1px 1px 22px rgba(213, 28, 28, .22);
+  -webkit-box-shadow: 1px 1px 22px rgba(213, 28, 28, .22);
+  cursor: pointer;
 }
